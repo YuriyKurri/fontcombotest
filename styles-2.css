@@ -3,11 +3,11 @@
 * {
    margin: 0 auto;
    padding: 0;
-   background-color: #18181a;
+   background-color: #17191a;
 }
 
 .container {
-   color: #f9fbfe;
+   color: #fafdff;
    display: flex;
    flex-direction: column;
    width: 90%;
@@ -20,7 +20,7 @@
 
 hr {
    border: none;
-   border-top: 2px dotted #4f4f52;
+   border-top: 2px dotted #4b4c4d;
    width: 200px;
    margin: 70px auto;
 }
@@ -30,7 +30,6 @@ h1 {
    font-size: 2.5rem;
    font-weight: 300;
    text-underline-offset: 14px;
-   color: #41eaff;
 }
 
 h2 {
@@ -56,10 +55,10 @@ a {
    text-decoration: none;
    font-family: "Inter";
    font-size: 1.5rem;
-   color: #41eaff;
+   color: #40dfff;
    margin-top: 60px;
 }
-a:hover {color: #a7abae;}
+a:hover {color: #28B1CC;}
 
 .font1-head {font-family: "Lexend";}
 .font1-body {font-family: "Inter";}
