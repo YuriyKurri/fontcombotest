@@ -23,7 +23,7 @@ hr {
    border: none;
    border-top: 2px dotted #d4d7d9;
    width: 200px;
-   margin: 70px auto;
+   margin: 50px auto;
 }
 
 h1 {
@@ -33,10 +33,10 @@ h1 {
 }
 
 h2 {
-   margin-bottom: 30px;
    font-size: 35px;
    font-weight: 400;
    letter-spacing: -1px;
+   margin-bottom: 30px;
 }
 
 p {
