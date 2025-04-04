@@ -56,7 +56,7 @@ a {
    font-size: 1.5rem;
    color: #40dfff;
 }
-a:hover {color: #28B1CC;}
+a:hover {color: #0f8299;}
 
 @media (max-width: 800px) {
    .container {font-size: 1.4rem;}
