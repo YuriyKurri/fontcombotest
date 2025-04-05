@@ -3,16 +3,16 @@
 * {
    margin: 0 auto;
    padding: 0;
-   background-color: #17191a;
+   background-color: #18191A;
 }
 
 .container {
-   color: #fafdff;
+   color: #FAFCFF;
    display: flex;
    flex-direction: column;
    width: 90%;
    height: 100%;
-   padding: 70px 0;
+   margin: 70px auto;
    text-align: left;
    font-family: "Inter", sans-serif;
 }
@@ -21,29 +21,29 @@
 
 hr {
    border: none;
-   border-top: 2px dotted #4b4c4d;
-   width: 200px;
-   margin: 50px auto;
+   border-top: 5px dotted #2F3033;
+   width: 100px;
+   margin: 60px auto;
 }
 
 h1 {
-   font-size: 2.5rem;
+   font-size: 3rem;
    font-weight: 300;
    text-underline-offset: 14px;
+   color: #40dfff;
 }
 
 h2 {
-   font-size: 35px;
+   font-size: 2.5rem;
    font-weight: 300;
-   letter-spacing: -1px;
    margin-bottom: 30px;
 }
 
 p {
    font-size: 1.1rem;
    font-weight: 300;
-   letter-spacing: 0.4px;
-   line-height: 1.6;
+   letter-spacing: 0.3px;
+   line-height: 1.7;
 }
 
 .links {
@@ -53,16 +53,21 @@ p {
 }
 a {
    text-decoration: none;
-   font-size: 1.5rem;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 1.4rem;
+   font-weight: 500;
    color: #40dfff;
 }
-a:hover {color: #0f8299;}
+a:hover {color: #288A9E;}
 
-@media (max-width: 800px) {
-   .container {font-size: 1.4rem;}
+@media (max-width: 720px) {
    h1 {
-      font-size: 1.6em; 
+      font-size: 2.5rem; 
       text-align: center;
    }
-   .container > div {width: 80%;}
+   h2 {font-size: 2.2rem;}
+   p {font-size: 1rem;}
+   a {font-size: 1.2rem;}
+   .container > div {width: 85%;}
 }
