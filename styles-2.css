@@ -3,11 +3,11 @@
 * {
    margin: 0 auto;
    padding: 0;
-   background-color: #18191A;
+   background-color: #17191A;
 }
 
 .container {
-   color: #FAFCFF;
+   color: #FCFEFF;
    display: flex;
    flex-direction: column;
    width: 80%;
@@ -21,7 +21,7 @@
 
 hr {
    border: none;
-   border-top: 5px dotted #2F3033;
+   border-top: 5px dotted #2F3233;
    width: 100px;
    margin: 60px auto;
 }
@@ -69,5 +69,5 @@ a:hover {color: #288A9E;}
    h2 {font-size: 2.2rem;}
    p {font-size: 1rem;}
    a {font-size: 1.2rem;}
-   .container > div {width: 90%;}
+   .container > div {width: 100%;}
 }
