@@ -6,6 +6,11 @@
    background-color: #17191A;
 }
 
+html {
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+}
+
 .container {
    color: #FCFEFF;
    display: flex;
@@ -14,7 +19,6 @@
    height: 100%;
    margin: 70px auto;
    text-align: left;
-   font-family: "Inter", sans-serif;
 }
 
 .container > div {width: 70%;}
@@ -62,12 +66,7 @@ a {
 a:hover {color: #288A9E;}
 
 @media (max-width: 720px) {
-   h1 {
-      font-size: 2.5rem; 
-      text-align: center;
-   }
-   h2 {font-size: 2.2rem;}
-   p {font-size: 1rem;}
-   a {font-size: 1.2rem;}
+   html {font-size: 14px;}
+   h1 {text-align: center;}
    .container > div {width: 100%;}
 }
