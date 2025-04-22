@@ -7,6 +7,7 @@
 }
 
 .container {
+   background-color: #FCFEFF;
    color: #17191A;
    display: flex;
    flex-direction: column;
@@ -30,7 +31,7 @@ h1 {
    font-size: 3rem;
    font-weight: 300;
    text-underline-offset: 14px;
-   color: #28b1cc;
+   color: #30A7BF;
 }
 
 h2 {
@@ -57,7 +58,7 @@ a {
    letter-spacing: 2px;
    font-size: 1.4rem;
    font-weight: 500;
-   color: #28b1cc;
+   color: #30A7BF;
 }
 a:hover {color: #288A9E;}
 
